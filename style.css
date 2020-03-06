@@ -2,10 +2,13 @@ body {
     background-color: yellow;
 }
 
-
+.item {
+    background-color: #f1f1f1;
+    border: 2px dashed blue;
+}
 .services {
 
-    border: 2px dashed blue;
+    
 }
 
 h2 {
