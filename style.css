@@ -1,11 +1,14 @@
 /* Gernal defaults */
 
 body {
-    background-color: yellow;
+    background-color: rgb(188, 247, 255);
     font-family: Arial, Helvetica, sans-serif;
 }
 
-img {
+img,
+video,
+audio,
+iframe {
     max-width: 100%;
 }
 
