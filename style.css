@@ -52,13 +52,16 @@ nav a:hover {
 nav a::before {
     content: '';
     display: block;
-    height: 2px;
+    height: 5px;
     width: 100%;
     background-color: rgb(154, 207, 91);
+
 
     position: absolute;
     top: 0;
     width: 0%;
+
+    transition: ease-in-out 200ms;
 }
 
 nav a:hover::before {
