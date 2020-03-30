@@ -2,7 +2,7 @@
 
 :root {
     --main-background-color: black;
-    --layout-background-color: #c7ff93;
+    --layout-background-color: black;
     --header-text-color: rgb(154, 207, 91);
     --header-background-color: black;
     --body-text-color: black;
@@ -12,6 +12,64 @@
 
     --body-text-size: 16px;
     --Header-font-size:24px;
+}
+/* Nav */
+
+.logo-nav {
+float: left;
+margin-right: 70px;
+padding: 10px 0;
+padding-left: 10px;
+}
+nav {
+    float: left;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+display: inline-block;
+margin-right: 70px;
+padding-top: 25px;
+
+positon: relative;
+}
+
+nav a {
+    color: rgb(154, 207, 91);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: rgb(182, 207, 152);
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: rgb(154, 207, 91);
+
+    position: absolute;
+    top: 0;
+    width: 0%;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
+/* General */
+
+header {
+    background: var(--layout-background-color);
+
 }
 
 body {
