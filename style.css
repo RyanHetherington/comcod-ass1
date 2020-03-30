@@ -12,6 +12,14 @@ iframe {
     max-width: 100%;
 }
 
+/* layout */
+
+.layer {
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* sections */
 
 .item {
