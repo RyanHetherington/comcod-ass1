@@ -118,3 +118,30 @@ h2 {
     padding: 10px;
     font-size: var(--Header-font-size);
 }
+
+/*SOCIAL MEDIA BUTTONS*/
+/* HOVER COLOR */
+
+a svg:hover #facebook,
+a svg:hover #instagram { 
+  fill: rgb(154, 207, 91);
+}
+
+article { 
+  width: 100%; 
+  margin: 60px auto; 
+  text-align: center;
+  zoom: 2;
+}
+a { 
+  outline: none; 
+  border: 0; 
+  text-decoration: none; 
+}
+a svg #facebook,
+a svg #instagram { 
+  transition: 200ms;
+  transition-timing-function: ease-in-out;
+  -webkit-transition: 200ms;
+  -webkit-transition-timing-function: ease-in-out;
+}
