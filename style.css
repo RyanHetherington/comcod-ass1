@@ -5,7 +5,7 @@
     --layout-background-color: black;
     --header-text-color: rgb(154, 207, 91);
     --header-background-color: black;
-    --body-text-color: black;
+    --body-text-color: white;
     --boarder-color: rgb(154, 207, 91);
 
     --vertical-spacer: 40px;
@@ -79,7 +79,7 @@ body {
     background-color: var(--main-background-color);
     font-family: Arial, Helvetica, sans-serif;
     font-size: var(--body-text-size);
-
+    color: var(--body-text-color);
 }
 
 img,
